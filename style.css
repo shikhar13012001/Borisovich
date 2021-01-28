@@ -1,0 +1,332 @@
+body {
+ /**/
+   background: url("back.jpg") no-repeat center center ;
+   /*https://cdn.shopify.com/s/files/1/0020/4433/0057/files/1-Network-switch-and-ethernet-cables.jpg*/ 
+ 
+  background-size: cover;
+  text-align: left;
+  color:black;
+  padding-top:2em;
+}
+
+* { color:white; text-decoration: none;}
+.color
+{
+  background-color:black;
+  top:0;
+  position:fixed;
+  width: 100%;
+}
+.text
+{
+  color: black;
+}
+.zone {
+    cursor:pointer;
+    /*display:inline-block;*/
+    text-align: center;
+    font-size:10em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    }
+    
+ .main-nav
+ {  display: flex;
+ 	  list-style: none;
+ 	    font-style: monospace;
+ 	    font-size:20px;
+          text-shadow: 1px 1px 1px #000;
+ }
+ li
+ {
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+
+ }
+ .special-a
+ {
+ 	color:white;
+ 	  font-style: monospace;
+ 	    font-size:15px;
+      text-decoration:none;
+ 	text-shadow: 1px 1px 1px #000; 
+ }
+ @media only screen and (max-width: 600px)
+ {
+ 	.main-nav{
+ 		font-size: 0.5em;
+ 		padding: 0;
+ 	}
+ }
+ .icon1
+ {
+ 	width:30px;
+	height:30px;
+	margin-left:8px; 
+    margin-top: 10px;
+ }
+ .push
+ {
+ 	margin-left: auto;
+ }
+.i
+{
+	width:100px;
+	height:100px;
+	margin-left:100px; 
+    margin-top: 10px;
+}
+.footer-container
+{
+background-image: url(div.jpg);
+background-size: cover; 
+  padding-bottom: 20rem;
+}
+.footer{
+  width:100%;
+  height:20vh;
+  background-image: url(div.jpg);
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  margin: 0 auto;
+}
+.back
+{
+ width: 100%;
+ height:100%;
+}
+.footer-heading
+{
+  display: flex;
+  flex-direction:column;
+  margin-right:4rem;
+}
+.footer-heading h2
+{   padding-top:3rem;
+  margin-left:1rem;
+  margin-bottom: 2rem;
+}
+.footer-heading a
+{ font-weight: 1000;
+  color:black;
+  text-decoration: none;
+ 
+
+  margin-left:1rem;
+  margin-bottom: 0.5rem;
+}
+.footer-email-form
+{   padding-top:3rem;
+  margin-bottom: 2rem;
+}
+#footer-email
+{
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline:none;
+  border:none;
+  padding-left:0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footer-email-btn
+{
+  width:100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color:#0d6efd;
+  outline:none;
+  border:none;
+  color:white;
+  font-size:1rem;
+}
+#footer-email-btn:hover
+{
+  cursor:pointer;
+  background-color: black;
+  transition: all 0.4s ease-out;
+}
+.i2
+{
+	width:100px;
+	height:100px;
+	margin-left:10px; 
+    margin-top: 10px;
+}
+h1
+{
+	font-size: 40px;
+	font-family:'Open Sans',sans-serif;
+	font-weight: 400;
+}
+
+.bold
+{
+	font-size: 80px;
+	font-family:monospace;
+	font-weight: 1000;
+}
+
+hr
+{
+
+    border-width:5px;
+    border-color:black solid;
+}
+p
+{  text-shadow: 1px 1px 1px #000;
+	font-family:'Open Sans' ;
+	text-align: left;
+	font-size:20px;
+	font-weight: bold;
+}
+
+.btn-xl
+{
+	
+	
+	font-weight:bold;
+	
+}
+
+
+
+.btn-xl:hover
+{
+
+		background-color: #005FFA;
+	
+}
+.l
+{
+	width: 80px;
+	height: 30px;
+	background-color:black;
+    font-family: 'Open sans';
+    border-color:black;
+    border-radius:50px;
+    border-width:3px;
+     float:right;
+     margin-right: 70px;
+  transition: transform 1.2s;
+ 
+
+}
+.l:hover
+{
+	background-color:black;
+	color:white;
+	transform: scale(1.1) translate(12px,12px);
+}
+.img1
+{
+   width:300px;
+   height:300px;
+   margin-top:80px;
+   margin-right: 40px;
+   margin-left: 350px;
+   
+}
+.img2
+{
+   width:200px;
+   height:200px;
+    margin:10px 10px 10px 10px;
+   background-color: black;
+}
+.container2
+{
+	display: grid;	
+
+	grid-template-columns:200px 200px 200px;
+  grid-column-gap: 100px;
+	grid-template-rows:200px 200px 200px;
+
+
+
+}
+.shift
+{
+  margin-left: 20px;
+}
+
+.box
+{
+	background-color: black;
+	padding: 50px;
+	margin:20px;
+}
+.box >img
+{
+	width: 100%;
+}
+h3
+{   font-family: monospace;
+	font-size:45px; 
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 5rem;
+}
+.btn-info
+{    margin-top:40px;
+	 margin-left: 100px;
+}
+.txt
+{
+	font-family: monospace;
+	font-style: cursive;
+	font-weight: bold;
+	
+}
+.btn-dark
+{    margin-top:5px;
+	 margin-left: 100px;
+}
+/* GLOBAL STYLES */
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter p {
+  color: black;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 70% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+
+
+
+
+
+
+
+
