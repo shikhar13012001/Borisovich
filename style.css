@@ -86,14 +86,14 @@ body {
 }
 .footer-container
 {
-background-image: url(div.jpg);
+background-image: url(https://raw.githubusercontent.com/shikhar13012001/Borisovich/Master/div.jpg);
 background-size: cover; 
   padding-bottom: 20rem;
 }
 .footer{
   width:100%;
   height:20vh;
-  background-image: url(div.jpg);
+  background-image: url(https://raw.githubusercontent.com/shikhar13012001/Borisovich/Master/div.jpg);
   background-size: cover;
   display:flex;
   justify-content: center;
