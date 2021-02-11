@@ -1,6 +1,6 @@
 body {
  /**/
-   background: url("https://raw.githubusercontent.com/shikhar13012001/Borisovich/Master/back.jpg") no-repeat center center ;
+   background-color:black  ;
    /*https://cdn.shopify.com/s/files/1/0020/4433/0057/files/1-Network-switch-and-ethernet-cables.jpg*/ 
  
   background-size: cover;
@@ -9,7 +9,51 @@ body {
   padding-top:2em;
 }
 
+.family
+{
+  font-family:"InputMono",monospace;
+}
+.heading-image
+{
+  background-image:url(https://img.artpal.com/243761/22-20-6-8-19-38-23m.jpg) ;
+  background-size:cover;
+  padding:8rem;
+}
+.position
+{
+  position:absolute;
+  margin-left:550px;
+  top:2000px;
+}
+.position2
+{
+  position:absolute;
+  margin-left:550px;
+  top:2690px;
+}
+
 * { color:white; text-decoration: none;}
+.texter
+{
+  background-color:black;
+
+}
+.crypto-heading
+{
+  font-size:4.5rem;
+    font-weight: 1000;
+    line-height: 1.65;
+    font-family: "InputMono", monospace;
+   
+}
+.kong-para
+{
+  font-size: 2rem; font-family: "InputMono",monospace;
+}
+.kong-description
+{
+  font-family: "InputMono", monospace; padding-bottom: 15rem;
+}
 .color
 {
   background-color:black;
@@ -21,22 +65,7 @@ body {
 {
   color: black;
 }
-.zone {
-    cursor:pointer;
-    /*display:inline-block;*/
-    text-align: center;
-    font-size:10em;
-    border-radius:4px;
-    border:1px solid #bbb;
-    transition: all 0.3s linear;
-}
 
-.zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    }
   
   .fa-envolope
   {
@@ -232,22 +261,25 @@ p
     background-color: #005FFA;
   
 }
-.l
+.log-in
 {
-  width: 80px;
-  height: 30px;
+  width: 100px;
+  height: 40px;
   background-color:black;
-    font-family: 'Open sans';
-    border-color:black;
-    border-radius:50px;
-    border-width:3px;
-     float:right;
-     margin-right: 70px;
+  font-family: "InputMono",monospace;
+  border-color:black;
+  border-radius:5px;
+  border-width:3px;
+  margin-top:20px;
+  outline: none;
+  right:14rem;
   transition: transform 1.2s;
+  position:absolute;
+
  
 
 }
-.l:hover
+.log-in:hover
 {
   background-color:black;
   color:white;
