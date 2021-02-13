@@ -21,15 +21,15 @@ body {
 }
 .position
 {
-  position:absolute;
+  position:relative;
   margin-left:550px;
-  top:2000px;
+  bottom:100px;
 }
 .position2
 {
-  position:absolute;
+  position:relative;
   margin-left:550px;
-  top:2690px;
+  bottom:100px;
 }
 
 * { color:white; text-decoration: none;}
